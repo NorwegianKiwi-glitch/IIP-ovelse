@@ -1,0 +1,43 @@
+Hva er tempratur
+    Temperatur er et mål for hvor varmt og kaldt det er.
+    Mer presist er temperatur en egenskap ved en gjenstand som forteller hvilken vei energi vil overføres når gjenstanden er i kontakt med en annen gjenstand.
+    Energi overføres fra den gjenstanden som har høyest temperatur.
+    Pedersen, Bjørn: temperatur i Store norske leksikon på snl.no. Hentet 29. september 2022 fra https://snl.no/temperatur
+
+internasjonale målesystemer (SI systemet med Volt for spenning og Kelvin for temperatur, for eksempel)
+    IS (internasjonale målesystemer) ble innført i en rekke land etter meterkonensjonen i 1875.
+    Den hadde som hensikt å standarisere målesystemer internasjonalt. Utifra denne konvensjonen fikk vi følgende måleenheter standarisert internasjonalt
+
+    Størrelse	Enhet
+            Navn	Symbol	Definert som
+    lengde	meter	m	lengden lys reiser i vakuum i løpet av 1⁄299 792 458 sekund.
+    masse	kilogram	kg	Plancks konstant (h) = 6,626070150 × 10-34 kg⋅m2/s.
+    tid	sekund	s	varigheten av 9 192 631 770 perioder av strålingen fra 133Cs-atomet ved overgang mellom grunntilstandens to hyperfinstruktur-nivåer.
+    elektrisk strøm	ampere	A	styrken av en konstant strøm, som når den løper i to parallelle, uendelig lange ledere med forsvinnende lite sirkulært tverrsnitt, og som har en innbyrdes avstand på én meter i vakuum, fører til at den ene lederen påvirker den andre med en kraft lik 2 × 10−7 N/m.
+    termodynamisk temperatur	kelvin	K	brøkdelen 1⁄273,16 av VSMOW-vanns trippelpunkts termodynamiske temperatur.
+    stoffmengde	mol	mol	en mengde lik antall atomer i 0,012 kg 12C, altså Avogadros konstant (6,022 × 1023).
+    lysstyrke	candela	cd	lysstyrken i en gitt retning til en lyskilde som sender ut monokromatisk lys med frekvens 540 × 1012 Hz, og med strålingsstyrke i den gitte retningen lik 1⁄683 watt/steradian.
+
+temperatur skalaer, - finnes det mange og hvilke er de mest brukte?
+    Celcius, Farenheit og Kelvin er de mest brukte skalaene for temåratur måling
+    Celcius er målesystemet som er brukt i de fleste land. Norge bruker celcius
+    Farenheit er også ett brukt måle system av en del land med forsatt færre en celcuis. USA bruker Farenheit
+    Kelvin blir brukt i forskning og er den internasjonale standaren for måleneheter
+
+prefix for størrelser (Bidragsytere til Wikimedia-prosjektene, 2004)
+
+omregningsformelen fra Celsius til Farenheit
+    To convert temperatures in degrees Celsius to Fahrenheit, "multiply by 1.8 (or 9/5) and add 32".
+
+omreigningsformelen fra enten Farenheit eller Celsius til Kelvin
+    Celcsius: = C + 273.15
+    Farenheit: = (F-32)* 5/9 + 273.15
+
+datatyper for input og output (return)
+    Input
+        Tall som representerer tempratur i enhtene Celcsius, Farenheit eller Kelvin
+    Output
+        Tall fra Input omgjort til Celcsius, Farenheit eller Kelvin
+
+Avrunding
+    For å få fine hele tall må man runde av. Når ett tall er under 0.5 runder man ned. Når ett tall er 0.5 eller høyere runder vi opp
