@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no-NB">
+<head>
+  <meta charset="UTF-8">
+  <title>TMP37</title>
+
+  <link rel="stylesheet" href="Stylesheet.css">
+
+</head>
+<body>
+
+<h1>Omformer MilliVolt til Celcsius, Farenheit eller Kelvin</h1>
+
+<p>
+  <label>MilliVolt</label>
+  <input id="inputMv" type="number" placeholder="Mv"
+         oninput="tempMaaler1(this.value)" onchange="tempMaaler1(this.value)";
+         oninput="tempMaaler2(this.value)" onchange="tempMaaler2(this.value)";
+         oninput="tempMaaler3(this.value)" onchange="tempMaaler3(this.value)";>
+</p>
+
+<p>Celcius: <span id="outputCelcsius"></span></p>
+<p>Farenheit: <span id="outputFarenheit"></span></p>
+<p>kelvin: <span id="outputKelvin"></span></p>
+
+<script src="testOfConverter.js"></script>
+
+</body>
+</html>

@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no-NB">
 <head>
     <meta charset="UTF-8">
     <title>TMP36</title>
 
+    <!--lenker css fil sammen med HTML fil-->
     <link rel="stylesheet" href="Stylesheet.css">
 
 </head>
 <body>
+
+    <!--Overskrift på nettsiden-->
     <h1>Omformer MilliVolt til Celcsius, Farenheit eller Kelvin</h1>
 
-    <p>Velg hvilke tempraturverdi du ønsker å oversette til</p>
+    <!--Beskrivelse av hva brukeren skal gjøre-->
+    <p>skriv inn hvor mye MilliVolt i feltet under</p>
 
+    <!--Input i Millivolt fra brukeren-->
     <p>
-        <label>MilliVolt</label>
-        <input id="inputMv" type="number" placeholder="Mv" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+    <label>MilliVolt</label>
+        <input id="inputMv" type="number" placeholder="Mv"
+          oninput="tempmaaler(this.value)" onchange="tempmaaler(this.value)"; >
     </p>
-    <p>Celcsius: <sp  an id="outputCelcsius"></span></p>
-    <script>
-        function LengthConverter(valNum) {
-            document.getElementById("outputCelcsius").innerHTML=valNum/3.2808;
-        }
-    </script>
+
+    <!--Output i tre forskjellige tempraturer-->
+    <p>Celcius: <span id="outputCelcsius"></span></p>
+    <p>Farenheit: <span id="outputFarenheit"></span></p>
+    <p>kelvin: <span id="outputKelvin"></span></p>
+
+    <!--lenker JavaScript fil sammen med HTML fil-->
+    <script src="Converter.js"></script>
 
 </body>
 </html>
